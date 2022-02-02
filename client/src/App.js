@@ -10,6 +10,8 @@ import About from './components/About';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 
+import Search from "./components/Header/search";
+
 import './App.css';
 
 class App extends Component {
@@ -26,6 +28,7 @@ class App extends Component {
               <Route path="/contact" component={Contact} />
               <Route component={NotFound} />
             </Switch>
+            <Search/>
           </div>
         </main>
 
